@@ -1,0 +1,94 @@
+Project Name: Hands-On Exercises 3.5 - 3.6 (HW12)
+
+Author: Best Jirayoot
+
+Date Last Modified: March 26, 2019
+
+----------------------------------------------------
+
+Question 1
+
+CSS Stylesheet - hw12.css
+
+/* link without underlines */
+
+a:link {
+	text-decoration: none;
+}
+
+body {
+	
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Arial, Helvetica, Sans Serif;
+}
+
+.new {
+	font-weight: bold;
+	font-style: italic;
+}
+
+HTML Code
+
+<head>
+
+	<title> Homework 12 </title>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="hw12.css">
+
+</head>
+
+<body>
+
+	<main>
+
+		<h1 class="new"> Arbitrary Title </h1>
+
+		<p> random text </p>
+
+	</main>
+
+</body>
+
+----------------------------------------------------
+
+Question 2
+
+CSS Stylesheet - hwk12.css
+
+body {
+	background-color: #FFF8DC;
+	color: #0000999;
+	font-family: Arial, Helvetica, Sans Serif;
+}
+
+#new {
+	font-weight: bold;
+	font-style: italic;
+}
+
+HTML Code
+
+<head>
+
+	<title> Homework 12 </title>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="hwk12.css">
+
+</head>
+
+<body>
+	
+	<main>
+
+	<h1 id="new"> Arbitrary Title pt. II </h1>
+
+	<p> random text to show styling </p>
+
+	</main>
+
+</body>
